@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position Property</title>
+  </head>
+  <body>
+    <header>
+      <a href="#">Logo</a>
+      <nav>
+        <a href="#">Test1</a>
+        <a href="#">Test1</a>
+      </nav>
+    </header>
+    <section>
+      <h1>
+        CSS Position property -- fixed , static(default) , relative, absolute,
+        sticky
+      </h1>
+      <p>Position property in css</p>
+      <button>Click here to find out</button>
+      <!-- find out about the position absolute value in css - 10minutes - position -->
+    </section>
+    <style>
+      button {
+        font-size: 40px;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        transition: all 1s ease; /* timing function */
+        /* transform -----    rotation  */
+      }
+      button:hover {
+        cursor: pointer;
+        color: black;
+        background-color: white;
+        font-size: 20px;
+        transform: skew(30deg);
+      }
+      header {
+        background-color: darkseagreen;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 80px;
+        position: fixed;
+        bottom: 100px;
+        /* left: 0px; */
+        right: 50px;
+        width: 500px;
+      }
+      section {
+        background-color: antiquewhite;
+        height: 4000px;
+      }
+    </style>
+  </body>
+</html>
